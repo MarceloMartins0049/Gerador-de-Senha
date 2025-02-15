@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+}
+
+input, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    color: black;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+    button:hover {
+        background-color: darkorange;
+    }
+
+.ad-container {
+    margin: 20px 0;
+    text-align: center;
+}
+/* Estilizando o menu */
+.navbar {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 18px;
+    }
+
+        .navbar a:hover {
+            color: orange;
+        }
+
+/* Estilizando a página Sobre */
+.sobre-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    margin: 50px auto;
+}

@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Gerador de Senhas";
+}
+
+<div class="container">
+    <h2>Gerador de Senha</h2>
+    <input type="text" id="senhaGerada" readonly>
+    <button onclick="copiarSenha()">Copiar</button>
+    <br>
+    <label for="tamanho">Tamanho:</label>
+    <input type="number" id="tamanho" min="4" max="20" value="8">
+    <br>
+    <input type="checkbox" id="incluirNumeros" checked>
+    <label for="incluirNumeros">Incluir números</label>
+    <br>
+    <input type="checkbox" id="incluirEspeciais">
+    <label for="incluirEspeciais">Incluir caracteres especiais</label>
+    <br>
+    <button onclick="gerarSenha()">Gerar Senha</button>
+</div>
+
+<script src="~/js/site.js"></script>
+<div class="sobre-container">
+    <h2>Sobre o Gerador de Senhas</h2>
+    <p>Este site foi desenvolvido para ajudar os usuários a gerar senhas seguras de forma rápida e fácil.</p>
+    <p>Com a opção de escolher o tamanho e incluir números, você pode criar senhas fortes para suas contas.</p>
+
+    <h3>Contato</h3>
+    <p>Desenvolvido por: Marcelo Martins Vicente Luís</p>
+    <p>Email: <a href="mailto:marcelomartinsvicenteluis@gmail.com">marcelomartinsvicenteluis@gmail.com</a></p>
+</div>
